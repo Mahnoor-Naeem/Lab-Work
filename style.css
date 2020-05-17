@@ -1,0 +1,58 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-div{
+    PADDING: 0 auto;
+    text-align: center;
+}
+.main-div>p{
+    font-size: 1.3em;
+    color: grey;
+    /* text-align: center; */
+    font-weight: none;
+    padding-bottom: 5px;
+}
+
+.cards{
+    display: inline-block;
+    width: 18%;
+    border: 1px solid rgb(230, 225, 225);
+    border-radius: 2px;
+    box-shadow: 2px 2px 5px rgb(228, 225, 225);
+    /* box-shadow: 0 1px 2px rgba(0,0,0,0.15); */
+    padding: 15px;
+    margin: 10px;
+    text-align: left;
+}
+
+.cards img{
+    height: 200px;
+    width: 100%;
+}
+.cards .p{
+    padding: -10px 0px 20px 0px;
+    font-size: .8em;
+    color: rgb(100, 97, 97);
+    padding-bottom: 10px;
+}
+.cards .sub-head{
+    font-size: 1em;
+    font-weight: bold;
+    color: rgb(61, 59, 59);
+    
+    /* padding-top: 5px; */
+}
+
+.cards a{
+    padding:5px 0px;
+    font-size: .9em;
+    border-top:1px solid rgb(228, 225, 225);
+    text-decoration: none;
+    /* margin-right: 50px; */
+}
+.svg-inline--fa.fa-w-14{
+    width: .875em;
+    position: relative;
+    left: 150px;
+}
+
